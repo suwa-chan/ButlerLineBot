@@ -3,9 +3,8 @@ name: linebot
 
 # 発火タイミング
 on:
-  push:
-#   schedule:
-#     - cron: '0 13 * * *'
+  schedule:
+    - cron: '15 12 * * *'
 
 jobs:
   build:
