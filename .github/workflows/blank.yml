@@ -1,11 +1,10 @@
 # ワークフロー名
-name: test_linebot
+name: linebot
 
 # 発火タイミング
 on:
-  push:
-#   schedule:
-#     - cron: '0 11 * * *'
+  schedule:
+    - cron: '0 12 05 * * *'
 
 jobs:
   build:
