@@ -4,7 +4,7 @@ name: linebot
 # 発火タイミング
 on:
   schedule:
-     - cron: '35 13 * * */Desktop/ButlerLineBot/main.py'
+     - cron: '50 13 * * */Desktop/ButlerLineBot/執事LineBot.ipynb'
 jobs:
   build:
     # Ubuntuの最新版環境内で処理
