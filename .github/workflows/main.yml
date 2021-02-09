@@ -3,10 +3,8 @@ name: linebot
 
 # 発火タイミング
 on:
-  push:
-#   schedule:
-#      - cron: '40 12 * * *'
-
+  schedule:
+     - cron: '45 12 * * *'
 jobs:
   build:
     # Ubuntuの最新版環境内で処理
