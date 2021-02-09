@@ -4,7 +4,7 @@ name: linebot
 # 発火タイミング
 on:
   schedule:
-     - cron: '45 12 * * *'
+     - cron: '50 12 * * */Desktop/ButlerLineBot'
 jobs:
   build:
     # Ubuntuの最新版環境内で処理
